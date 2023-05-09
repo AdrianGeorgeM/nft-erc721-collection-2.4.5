@@ -13,7 +13,7 @@ const CollectionConfig: CollectionConfigInterface = {
 	tokenName: 'Very Cool Apes AA',
 	tokenSymbol: 'VCAAA',
 	hiddenMetadataUri: 'ipfs://QmP2kZGjQS6x133GnVzMowoLa6yEkTeddcdxC1RUXZZ9gy/hidden.json',
-	maxSupply: 20,
+	maxSupply: 12,
 	whitelistSale: {
 		price: 0.05,
 		maxMintAmountPerTx: 1,
@@ -26,7 +26,7 @@ const CollectionConfig: CollectionConfigInterface = {
 		price: 0.09,
 		maxMintAmountPerTx: 5,
 	},
-	contractAddress: null,
+	contractAddress: '0x5FbDB2315678afecb367f032d93F642f64180aa3',
 	marketplaceIdentifier: 'my-nft-token',
 	marketplaceConfig: Marketplaces.openSea,
 	whitelistAddresses,
